@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AlgunsCodigos
 {
-    class Boleto
+    public class Boleto
     {
         public DateTime DataVencimento { get => dataVencimento; set => dataVencimento = value; }
         // public DateTime Data { get { return data; } set { data = value; } }
