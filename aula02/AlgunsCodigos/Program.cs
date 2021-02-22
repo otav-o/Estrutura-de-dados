@@ -15,14 +15,16 @@ namespace AlgunsCodigos
 
             for (int i = 0; i < boletos.Length; i++)
             {
-                WriteLine("{0} - {1}", boletos[i].DataVencimento, boletos[i].Valor);
+                WriteLine("{0} - {1}", new object[] { boletos[i].DataVencimento, boletos[i].Valor });
             }
         }
 
-        static void WriteLine(string formato, object data, object valor)
+        static void WriteLine(string formato, params object [] objetos) // número variável de parâmetros
         {
-            string novaString = formato.Replace("{0}", data.ToString());
-            novaString = novaString.Replace("{1}", valor.ToString());
+            string novaString = formato;
+            for (int i = 0; i < objetos.Length; i++)
+                novaString = novaString.Replace("{" + i.ToString() + "}", objetos[i].ToString());
+
             Console.WriteLine(novaString);
         }
         // todo objeto em C# herda de Object, e este tem um método ToString()
