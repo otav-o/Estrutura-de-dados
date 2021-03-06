@@ -13,7 +13,7 @@ namespace EstruturaDeDados.Recursividade
             {
                 j = i;
                 for (k = (i + 1); k < A.Length; k++)
-                    if (A[k] < A[i])
+                    if (A[k] < A[j])
                         j = k;
                 t = A[i];
                 A[i] = A[j];
