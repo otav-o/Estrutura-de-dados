@@ -8,6 +8,7 @@ namespace Fatorial
         {
             int x = 10;
             Procedimento(ref x);
+
             Console.WriteLine(x);
         }
 
