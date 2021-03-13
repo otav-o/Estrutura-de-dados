@@ -6,8 +6,9 @@ namespace Fatorial
     {
         static void Main(string[] args)
         {
-            FatorialPassagemPorRef.Executar();
-            EntenderRef.Executar();
+            //FatorialPassagemPorRef.Executar();
+            //EntenderRef.Executar();
+            FatorialSemReferencia.Executar();
         }
     }
 }
