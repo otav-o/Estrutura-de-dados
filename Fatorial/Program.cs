@@ -8,9 +8,11 @@ namespace Fatorial
         {
             //FatorialPassagemPorRef.Executar();
             //EntenderRef.Executar();
-            FatorialSemReferencia.Executar();
+            //FatorialSemReferencia.Executar();
 
-            Console.WriteLine(Fatorial(5));
+            //Console.WriteLine(Fatorial(5));
+
+            IteracaoPorRecorrencia.Executar();
         }
 
         static int Fatorial(int numero)
