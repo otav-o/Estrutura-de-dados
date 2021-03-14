@@ -12,7 +12,9 @@ namespace Fatorial
 
             //Console.WriteLine(Fatorial(5));
 
-            IteracaoPorRecorrencia.Executar();
+            //IteracaoPorRecorrencia.Executar();
+
+            IteracaoPorRecorrencia2.Executar();
         }
 
         static int Fatorial(int numero)
