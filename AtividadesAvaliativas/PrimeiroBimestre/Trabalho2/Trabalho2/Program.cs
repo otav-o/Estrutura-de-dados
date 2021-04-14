@@ -12,6 +12,8 @@ namespace Trabalho2
 
             TestarQuestao2();
 
+            TestarQuestao3();
+
         }
 
         static void TestarQuestao1()
@@ -32,6 +34,16 @@ namespace Trabalho2
             var soma = Questao2.SomaNumerosPrimosAteV3(n);
 
             Console.WriteLine($"A soma dos primos até {n} é [recursividade] " + soma);
+        }
+
+        static void TestarQuestao3()
+        {
+            var vetor = new int[] { 2, 5, 0, 9, 1, 4 };
+
+            Questao3.OrdenarCrescenteV3(vetor);
+            
+            foreach (var n in vetor)
+                Console.WriteLine(n);
         }
     }
 }
