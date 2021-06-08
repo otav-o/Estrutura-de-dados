@@ -61,6 +61,11 @@ namespace ListasSimplesmenteEncadeadas
             get { return primeiro; }
         } // próxima aula: uma solução melhor
 
+        public void ParaCada(IImprimeItem imprime)
+        {
+
+        }
+
         private No primeiro;
     }
 }

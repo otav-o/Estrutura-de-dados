@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace ListasSimplesmenteEncadeadas
+namespace ListasDuplamenteEncadeadas
 {
     class Program
     {
         static void Main(string[] args)
         {
-            TesteLista t = new TesteLista();
-            t.Testar();
+            Console.WriteLine("Hello World!");
         }
     }
 }
